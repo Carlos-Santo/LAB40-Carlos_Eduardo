@@ -8,13 +8,14 @@
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "test": "node --test",
-    "lint": "eslint .",
-    "test:smoke": "node scripts/smoke.js"
+    "lint": "eslint src --global __dirname --global URL",   
+    "smoke": "node scripts/smoke.js"
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.16.0"
   }
 }
