@@ -9,7 +9,7 @@
     "dev": "node --watch src/server.js",
     "test": "node --test",
     "lint": "eslint src --global __dirname --global URL",   
-    "test:smoke": "node scripts/smoke.js"
+    "smoke": "node scripts/smoke.js"
   },
   "engines": {
     "node": ">=20"
